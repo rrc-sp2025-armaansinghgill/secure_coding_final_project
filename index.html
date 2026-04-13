@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Support Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Community Support Tracker</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#donationForm">Donation Tracker</a></li>
+            <li><a href="#volunteerform">Volunteer Hours Tracker</a></li>
+            <li><a href="#event-signup">Event Signup</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Donation Tracker</h2>
+
+            <form id="donationForm">
+                <div>
+                    <label for="charityName">Charity Name:</label>
+                    <input type="text" id="charityName">
+                </div>
+
+                <div>
+                    <label for="donationAmount">Donation Amount:</label>
+                    <input type="text" id="donationAmount">
+                </div>
+
+                <div>
+                    <label for="donationDate">Date of Donation:</label>
+                    <input type="date" id="donationDate">
+                </div>
+
+                <div>
+                    <label for="donorMessage">Donor Comment/Message:</label>
+                    <textarea id="donorMessage"></textarea>
+                </div>
+
+                <button type="submit" id="donationSubmit">Add Donation</button>
+            </form>
+
+            <div id="donation-form-messages"></div>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer>
+    <script src="bundle.js"></script>
+</body>
+</html>

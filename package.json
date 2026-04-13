@@ -1,0 +1,25 @@
+{
+  "name": "group_5_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrc-sp2025-armaansinghgill/front_end_group_5_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rrc-sp2025-armaansinghgill/front_end_group_5_project/issues"
+  },
+  "homepage": "https://github.com/rrc-sp2025-armaansinghgill/front_end_group_5_project#readme",
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "jsdom": "^24.1.3"
+  }
+}
